@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHContextMenuTest", "GHContextMenuTest\GHContextMenuTest.csproj", "{5866CFB5-A282-490A-BC6A-35A25032B0FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHContextMenuBinding", "GHContextMenuBinding\GHContextMenuBinding.csproj", "{283304C6-C103-48EE-BFD4-6494D51F52C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{283304C6-C103-48EE-BFD4-6494D51F52C9}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{283304C6-C103-48EE-BFD4-6494D51F52C9}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{283304C6-C103-48EE-BFD4-6494D51F52C9}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{283304C6-C103-48EE-BFD4-6494D51F52C9}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{283304C6-C103-48EE-BFD4-6494D51F52C9}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{283304C6-C103-48EE-BFD4-6494D51F52C9}.Release|iPhone.Build.0 = Release|Any CPU
+		{283304C6-C103-48EE-BFD4-6494D51F52C9}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{283304C6-C103-48EE-BFD4-6494D51F52C9}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5866CFB5-A282-490A-BC6A-35A25032B0FD}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{5866CFB5-A282-490A-BC6A-35A25032B0FD}.Debug|iPhone.Build.0 = Debug|iPhone
+		{5866CFB5-A282-490A-BC6A-35A25032B0FD}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{5866CFB5-A282-490A-BC6A-35A25032B0FD}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{5866CFB5-A282-490A-BC6A-35A25032B0FD}.Release|iPhone.ActiveCfg = Release|iPhone
+		{5866CFB5-A282-490A-BC6A-35A25032B0FD}.Release|iPhone.Build.0 = Release|iPhone
+		{5866CFB5-A282-490A-BC6A-35A25032B0FD}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{5866CFB5-A282-490A-BC6A-35A25032B0FD}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
