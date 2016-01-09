@@ -13,7 +13,11 @@ libGHContextMenu-armv7.a:
 	$(XBUILD) -project $(PROJECT) -target $(TARGET) -sdk iphoneos -arch armv7 -configuration Release clean build
 	-mv $(PROJECT_ROOT)/build/Release-iphoneos/lib$(TARGET).a $@
 
-libGHContextMenu.a: libGHContextMenu-i386.a libGHContextMenu-armv7.a
+libGHContextMenu-arm64.a:
+	$(XBUILD) -project $(PROJECT) -target $(TARGET) -sdk iphoneos -arch arm64 -configuration Release clean build
+	-mv $(PROJECT_ROOT)/build/Release-iphoneos/lib$(TARGET).a $@
+
+libGHContextMenu.a: libGHContextMenu-i386.a libGHContextMenu-armv7.a libGHContextMenu-arm64.a
 	xcrun -sdk iphoneos lipo -create -output $@ $^
 
 clean:

@@ -79,9 +79,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="GHContextMenuBinding">
-      <HintPath>..\References\GHContextMenuBinding.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
@@ -100,4 +97,10 @@
     <Compile Include="CollectionViewController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\GHContextMenuBinding\GHContextMenuBinding.csproj">
+      <Project>{283304C6-C103-48EE-BFD4-6494D51F52C9}</Project>
+      <Name>GHContextMenuBinding</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
